@@ -1,0 +1,7 @@
+
+def suma_recursiva(lista, pi, pf):
+    # caso base
+    if pi > pf:
+        return 0
+    
+    return lista[pi] + suma_recursiva(lista, pi + 1, pf)
