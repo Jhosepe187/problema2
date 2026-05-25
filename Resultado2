@@ -17,3 +17,7 @@ print("Lista:", lista)
 
 pi = int(input("Ingrese posición inicial (PI): "))
 pf = int(input("Ingrese posición final (PF): "))
+
+resultado = suma_recursiva(lista, pi-1, pf-1)
+
+print("La suma es:", resultado)
