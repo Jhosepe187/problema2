@@ -5,3 +5,7 @@ def suma_recursiva(lista, pi, pf):
         return 0
     
     return lista[pi] + suma_recursiva(lista, pi + 1, pf)
+
+lista = []
+
+n = int(input("Ingrese el tamaño de la lista: "))
